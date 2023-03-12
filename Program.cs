@@ -10,8 +10,8 @@ namespace Day28ProgramsUsingTPL
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Read Data From Csv File");
-            CsvHandler.CSVDataHndling();
+            Console.WriteLine("Read Data From Csv File and Write To Json File :");
+            JsonHandler.JsonDataHndling();
             Console.ReadLine();
         }
     }
